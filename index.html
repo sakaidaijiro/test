@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>実技試験</title>
+</head>
+<style>
+   
+    .countens {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-color: rgb(226, 208, 175);
+        width: 800px;
+        height: 200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text {
+        background-color: #000;
+        width: 800px;
+        height: 100px;
+    }
+
+    main {
+        margin: 90px auto 90px auto;
+        box-sizing: border-box;
+        padding: 0 2%;
+        max-width: auto;
+    }
+
+    .box {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    img {
+        width: 600px;
+        height: 750px;
+        margin: 300px;
+        padding: 15%;
+    }
+
+    .images img:hover {
+        transform: rotate(20deg);
+    }
+
+    .button {
+        background-color: #c0babe;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    @media (max-width :767px) {
+        body {
+            background-color: #fff;
+        }
+
+        .contents {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+</style>
+
+
+<body>
+    <div class="countens">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="text">文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー
+        文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー
+    </div>
+
+    <main>
+        <div class="img">
+            <div>
+                <img src="IMG_kapi.jpg" alt="カピバラ">
+            </div>
+            <h1>お名前：</h1>
+            <h1>返信を希望する方はチェックしてください。</h1>
+            <h1>メッセージ：</h1>
+            <a href="konchu.html" class="button">送信する</a>
+        </div>
+    </main>
+</body>
+
+</html>
